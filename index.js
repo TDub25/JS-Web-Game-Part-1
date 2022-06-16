@@ -20,6 +20,7 @@ function newImage(url, left, bottom){
     document.body.append(object)
     return object
 }
+//Should work on all newItem elements//
 function newItem(url, left, bottom){
     let object = newImage(url, left, bottom)
 
